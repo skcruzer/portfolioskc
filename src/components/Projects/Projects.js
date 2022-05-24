@@ -51,11 +51,13 @@ const Projects = () => {
       <Grid container spacing={4} padding={2} justifyContent='center'>
 
         {projects.map(project =>
-          <Card></Card>
-          )}
+          <Grid item>
+            <Card title={project.title} github={project.github} heroku={project.heroku} image={project.image}></Card>
+          </Grid>
+        )}
       </Grid>
     </>
   )
 }
 
-export default Projects
+export default Projects 
