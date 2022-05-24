@@ -48,12 +48,14 @@ const RecipeReviewCard = ({title, github, heroku, image}) => {
             <MoreVertIcon />
           </IconButton>
         }
+        // pull projects title
         title= {title}
         subheader="September 14, 2016"
       />
       <CardMedia
         component="img"
         height="194"
+        // pull projects image
         image= {image}
         alt="Paella dish"
       />
@@ -66,13 +68,14 @@ const RecipeReviewCard = ({title, github, heroku, image}) => {
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="Repo">
-          {/* <FavoriteIcon /> */}
+          {/* github icon and link to repo */}
           <a href={github} target="_blank">
             <GitHubIcon />
           </a>
           
         </IconButton>
         <IconButton aria-label="Deployed">
+          {/* icon and link to deployed application */}
           <a href={heroku} target="_blank">
             <WebIcon />
           </a>
