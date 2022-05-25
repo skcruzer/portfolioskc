@@ -7,15 +7,19 @@ import Contact from "./components/Contact";
 import Footer from './components/Footer'
 
 function App() {
+  const [pageState, setPageState] = useState({
+    about: true,
+    projects: false,
+    contact: false
+  })
   return (
     <>
     <CssBaseline />
-    <Navbar />
-
-    <About />
-    <Projects />
-    <Contact />
-
+    <Navbar pageState={pageState} setPageState={setPageState} />
+    {pageState.about ? <About /> : ''}
+    {pageState.projects ? <Projects /> : ''}
+    {pageState.contact ? <Contact /> : ''}
+    
     <Footer />
     </>
   );

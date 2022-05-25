@@ -11,10 +11,11 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import Resume from '../../assets/other/SeanKennethCruz_Resume_2022.pdf'
 
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
-const ResponsiveAppBar = () => {
+const ResponsiveAppBar = ({ pageState, setPageState }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -32,6 +33,18 @@ const ResponsiveAppBar = () => {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+
+  const handleOpenAbout = () => {
+    setPageState({ ...pageState, about: true, projects: false, contact: false })
+  }
+
+  const handleOpenProjects = () => {
+    setPageState({ ...pageState, about: false, projects: true, contact: false})
+  }
+
+  const handleOpenContact = () => {
+    setPageState({ ...pageState, about: false, projects: false, contact: true })
+  }
 
   return (
     <AppBar position="static">
@@ -100,21 +113,22 @@ const ResponsiveAppBar = () => {
             Sean Cruz
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            
-              <Button
-                
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-              About
-              </Button>
+
             <Button
 
-              onClick={handleCloseNavMenu}
+              onClick={handleOpenAbout}
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
-              Portfolio
+              About
             </Button>
+            <Button
+
+              onClick={handleOpenProjects}
+              sx={{ my: 2, color: 'white', display: 'block' }}
+            >
+              Projects
+            </Button>
+            <a href={Resume} target='_blank'>
             <Button
 
               onClick={handleCloseNavMenu}
@@ -122,14 +136,15 @@ const ResponsiveAppBar = () => {
             >
               Resume
             </Button>
+            </a>
             <Button
 
-              onClick={handleCloseNavMenu}
+              onClick={handleOpenContact}
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
               Contact
             </Button>
-            
+
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
