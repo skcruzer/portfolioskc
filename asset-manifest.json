@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolioskc/static/css/main.5ebdf1b8.css",
+    "main.js": "/portfolioskc/static/js/main.089ab44d.js",
+    "static/media/small.png": "/portfolioskc/static/media/small.6620f3f59a4e6075d1e4.png",
+    "static/media/SeanKennethCruz_Resume_2022.pdf": "/portfolioskc/static/media/SeanKennethCruz_Resume_2022.997c45307f802736173c.pdf",
+    "index.html": "/portfolioskc/index.html",
+    "main.5ebdf1b8.css.map": "/portfolioskc/static/css/main.5ebdf1b8.css.map",
+    "main.089ab44d.js.map": "/portfolioskc/static/js/main.089ab44d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ebdf1b8.css",
+    "static/js/main.089ab44d.js"
+  ]
+}
