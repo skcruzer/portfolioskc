@@ -19,6 +19,7 @@ const ProjectCompCard = ({title, github, heroku, image, description}) => {
       />
       <CardMedia
         component="img"
+        border="2px solid black"
         height="194"
         // pull projects image
         image= {image}
