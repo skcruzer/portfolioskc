@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Resume from '../../assets/other/SeanKennethCruz_Resume_2022.pdf'
+import './navbar.css'
 
 
 const ResponsiveAppBar = ({ pageState, setPageState }) => {
@@ -36,7 +37,7 @@ const ResponsiveAppBar = ({ pageState, setPageState }) => {
   }
 
   return (
-    <AppBar position="static">
+    <AppBar className='navbar' position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
