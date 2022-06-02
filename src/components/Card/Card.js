@@ -26,7 +26,7 @@ const ProjectCompCard = ({title, github, heroku, image, description}) => {
         alt="Project Image"
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.primary">
           {description}
         </Typography>
       </CardContent>

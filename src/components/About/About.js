@@ -11,7 +11,7 @@ const About = () => {
         <Grid justifyContent='center' container padding={2} spacing={2}>
           {/* grid item sizing for mobile responsiveness */}
           <Grid item md={2}></Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={7} md={4}>
             <Avatar alt='profile picture of me' src={proPic} sx={{ width: 1, height: 1 }}></Avatar>
           </Grid>
 
