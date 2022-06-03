@@ -3,12 +3,13 @@ import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import proPic from '../../assets/pics/small.png'
 import Avatar from '@mui/material/Avatar'
+import './about.css'
 
 const About = () => {
   return (
     <>
       <Box minHeight='85vh'>
-        <Grid justifyContent='center' container padding={2} spacing={2}>
+        <Grid justifyContent='center' className="about" container padding={2} spacing={2}>
           {/* grid item sizing for mobile responsiveness */}
           <Grid item md={2}></Grid>
           <Grid item xs={7} md={4}>
