@@ -86,7 +86,7 @@ const ResponsiveAppBar = ({ pageState, setPageState }) => {
                 <Typography textAlign="center">Portfolio</Typography>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <a href={Resume} target='_blank' rel='noopener noreferrer'>
+                <a href={Resume} target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}>
                   <Typography textAlign="center">Resume</Typography>
                 </a>
               </MenuItem>
@@ -120,7 +120,7 @@ const ResponsiveAppBar = ({ pageState, setPageState }) => {
             >
               Projects
             </Button>
-            <a href={Resume} target='_blank' rel='noopener noreferrer'>
+            <a href={Resume} target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}>
             <Button
 
               onClick={handleCloseNavMenu}

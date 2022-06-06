@@ -5,6 +5,9 @@ import FormControl from '@mui/material/FormControl';
 import InputLabel from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 
 const Contact = () => {
 
@@ -57,6 +60,29 @@ const Contact = () => {
 
   return (
     <>
+      <Grid container justifyContent='center' spacing={3} padding={5}>
+        <Grid item xs={12} md={4}>
+          <a href="https://github.com/skcruzer" target='_blank' rel='noopener noreferrer'>
+            <GitHubIcon fontSize='large' color='primary'>
+            </GitHubIcon>
+          </a>
+        </Grid>
+        <Grid item xs={12} md={4}>
+
+          <a href="https://www.linkedin.com/in/seankennethcruz/" target='_blank' rel='noopener noreferrer'>
+            <LinkedInIcon fontSize='large' color='primary'>
+            </LinkedInIcon>
+          </a>
+          
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <a href="mailto:seankennethcruz@gmail.com" target='_blank' rel='noopener noreferrer'>
+            <EmailIcon fontSize='large' color='primary'>
+            </EmailIcon>
+          </a>
+        </Grid>
+      </Grid>
+      
       {/* form for contacting me */}
       <Grid container justifyContent='center'>
         <Grid item>
