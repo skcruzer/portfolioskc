@@ -37,7 +37,7 @@ const About = () => {
               
             <p>Additional: GitHub, GitLab, Jest, Insomnia REST</p>
 
-            <p>Operating Systems: Windows, macOS</p>
+            <p>Operating Systems: Windows, macOS, Linux</p>
           </Grid>
         </Grid>
       </Box>
