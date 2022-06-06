@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import Resume from '../../assets/other/SeanKennethCruz_Resume_2022.pdf'
+import Resume from '../../assets/other/SeanKennethCruz_Resume.pdf'
 import './navbar.css'
 
 
