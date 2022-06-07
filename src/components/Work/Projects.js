@@ -7,6 +7,7 @@ import HMS from '../../assets/pics/hms.png'
 import ReadMe from '../../assets/pics/readmeGenerator.png'
 import Weather from '../../assets/pics/weatherDashboard.png'
 import Code from '../../assets/pics/codeQuiz.png'
+import './projects.css'
 
 const Projects = () => {
   let projects = [
@@ -29,45 +30,48 @@ const Projects = () => {
       github: 'https://github.com/skcruzer/GHW--Hospital-Management-System',
       heroku: 'https://hosp-man-sys.herokuapp.com/dashboard.html',
       image: HMS,
-      description: 'A Hospital Management System that helps manage the information related to health care and aids in the job completion of health care providers effectively.'
+      description: 'A Hospital Management System that helps health care providers manage the information related to their staff and patients effectively.'
     },
     {
       title: 'README Generator',
       github: 'https://github.com/skcruzer/readMe-Generator',
       heroku: 'https://github.com/skcruzer/readMe-Generator',
       image: ReadMe,
-      description: "This node.js application uses Inquirer package to take a user's input and generate them a README file."
+      description: "This Node.js application uses Inquirer package to take a user's input and generate them a good README file for their projects."
     },
     {
       title: 'Weather Dashboard',
       github: 'https://github.com/skcruzer/weather-Dashboard',
       heroku: 'https://skcruzer.github.io/weather-Dashboard/',
       image: Weather,
-      description: 'Web application to check weather in different cities across the country using OpenWeather API.'
+      description: 'Web application to check weather forecasts in different cities across the country utilizing the OpenWeather API.'
     },
     {
       title: 'Code Quiz',
       github: 'https://github.com/skcruzer/code-quiz',
       heroku: 'https://skcruzer.github.io/code-quiz/',
       image: Code,
-      description: 'Coding quiz to test your knowledge on the world of Web Development.'
+      description: 'A coding quiz consisting of 10 questions designed to test your knowledge on the world of Web Development.'
     }
   ]
 
 
   return (
     <>
-      <Grid container justifyContent='center'>
+      <Grid container className='projects'>
+        <Grid container justifyContent='center'>
         <h1>My Projects</h1>
       </Grid>
       <Grid container spacing={4} padding={2} justifyContent='center'>
 
         {projects.map(project =>
           <Grid item>
-            <Card title={project.title} github={project.github} heroku={project.heroku} image={project.image} description={project.description}></Card>
+            <Card className='projectsCard' title={project.title} github={project.github} heroku={project.heroku} image={project.image} description={project.description}></Card>
           </Grid>
         )}
       </Grid>
+      </Grid>
+      
     </>
   )
 }

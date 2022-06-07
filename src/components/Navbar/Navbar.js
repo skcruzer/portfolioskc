@@ -37,7 +37,7 @@ const ResponsiveAppBar = ({ pageState, setPageState }) => {
   }
 
   return (
-    <AppBar className='navbar' position="static">
+    <AppBar position="static" style={{ background: '#284B63'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -45,6 +45,7 @@ const ResponsiveAppBar = ({ pageState, setPageState }) => {
             noWrap
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
+            style={{ color: 'FFFCFE' }}
           >
             Sean Cruz
           </Typography>

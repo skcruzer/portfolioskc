@@ -8,6 +8,7 @@ import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import './contact.css'
 
 const Contact = () => {
 
@@ -60,14 +61,15 @@ const Contact = () => {
 
   return (
     <>
-      <Grid container justifyContent='center' spacing={3} padding={5}>
-        <Grid item xs={12} md={4}>
+      <Grid container className='contact' justifyContent='center' padding={5}>
+        <Grid item md={1}></Grid>
+        <Grid item xs={12} md={2}>
           <a href="https://github.com/skcruzer" target='_blank' rel='noopener noreferrer'>
             <GitHubIcon fontSize='large' color='primary'>
             </GitHubIcon>
           </a>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={2}>
 
           <a href="https://www.linkedin.com/in/seankennethcruz/" target='_blank' rel='noopener noreferrer'>
             <LinkedInIcon fontSize='large' color='primary'>
@@ -75,7 +77,7 @@ const Contact = () => {
           </a>
           
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={2}>
           <a href="mailto:seankennethcruz@gmail.com" target='_blank' rel='noopener noreferrer'>
             <EmailIcon fontSize='large' color='primary'>
             </EmailIcon>
@@ -84,12 +86,12 @@ const Contact = () => {
       </Grid>
       
       {/* form for contacting me */}
-      <Grid container justifyContent='center'>
+      <Grid container className='contact' justifyContent='center'>
         <Grid item>
           <h1>Contact</h1>
         </Grid>
       </Grid>
-      <Grid container justifyContent='center' spacing={3} padding={2}>
+      <Grid container className='contact' justifyContent='center' spacing={3} padding={2}>
         <Grid item xs={12} md={8} lg={7}>
           <FormControl fullWidth>
             <InputLabel htmlFor="my-input">Name</InputLabel>
@@ -126,12 +128,12 @@ const Contact = () => {
           />
         </Grid>
       </Grid>
-      <Grid container justifyContent='center'>
+      <Grid container className='contact' justifyContent='center'>
         <Grid item>
           <Button>Submit</Button>
         </Grid>
       </Grid>
-      <Grid container justifyContent='center'>
+      <Grid container className='contact' justifyContent='center'>
         {/* Clicking away from input fields will render a notification on page to user if left blank or invalid */}
         {
           formState.nameNeeded ? <p> Name is required. </p> : ''
