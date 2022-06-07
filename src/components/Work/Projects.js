@@ -66,7 +66,7 @@ const Projects = () => {
 
         {projects.map(project =>
           <Grid item>
-            <Card className='projectsCard' title={project.title} github={project.github} heroku={project.heroku} image={project.image} description={project.description}></Card>
+            <Card title={project.title} github={project.github} heroku={project.heroku} image={project.image} description={project.description}></Card>
           </Grid>
         )}
       </Grid>

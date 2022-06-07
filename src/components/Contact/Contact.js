@@ -65,21 +65,21 @@ const Contact = () => {
         <Grid item md={1}></Grid>
         <Grid item xs={12} md={2}>
           <a href="https://github.com/skcruzer" target='_blank' rel='noopener noreferrer'>
-            <GitHubIcon fontSize='large' color='primary'>
+            <GitHubIcon fontSize='large' color='info'>
             </GitHubIcon>
           </a>
         </Grid>
         <Grid item xs={12} md={2}>
 
           <a href="https://www.linkedin.com/in/seankennethcruz/" target='_blank' rel='noopener noreferrer'>
-            <LinkedInIcon fontSize='large' color='primary'>
+            <LinkedInIcon fontSize='large' color='info'>
             </LinkedInIcon>
           </a>
           
         </Grid>
         <Grid item xs={12} md={2}>
           <a href="mailto:seankennethcruz@gmail.com" target='_blank' rel='noopener noreferrer'>
-            <EmailIcon fontSize='large' color='primary'>
+            <EmailIcon fontSize='large' color='info'>
             </EmailIcon>
           </a>
         </Grid>

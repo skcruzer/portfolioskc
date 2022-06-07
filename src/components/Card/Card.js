@@ -9,13 +9,15 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WebIcon from '@mui/icons-material/Web';
+import './card.css'
 
 const ProjectCompCard = ({title, github, heroku, image, description}) => {
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardHeader
+    <Card sx={{ maxWidth: 345 }} style={{ background: '#FFFCFE' }}>
+      <CardHeader 
         title= {title}
+        className= 'projectsTitle'
       />
       <CardMedia
         component="img"
