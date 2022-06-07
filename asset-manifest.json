@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolioskc/static/css/main.8c93007e.css",
-    "main.js": "/portfolioskc/static/js/main.5bd03541.js",
+    "main.css": "/portfolioskc/static/css/main.c73a5794.css",
+    "main.js": "/portfolioskc/static/js/main.208fa02b.js",
     "static/media/small.png": "/portfolioskc/static/media/small.6620f3f59a4e6075d1e4.png",
     "static/media/cinema&sip.png": "/portfolioskc/static/media/cinema&sip.d0986035bf5947991561.png",
     "static/media/codeQuiz.png": "/portfolioskc/static/media/codeQuiz.25378afe3915f6a6d31c.png",
     "static/media/weatherDashboard.png": "/portfolioskc/static/media/weatherDashboard.42052d902697f1f6fa55.png",
-    "static/media/SeanKennethCruz_Resume_2022.pdf": "/portfolioskc/static/media/SeanKennethCruz_Resume_2022.cd6946386b052f33a4db.pdf",
     "static/media/stackup.png": "/portfolioskc/static/media/stackup.2a02b9941e5ac9856863.png",
     "static/media/readmeGenerator.png": "/portfolioskc/static/media/readmeGenerator.e31eacb34152cda53e47.png",
+    "static/media/SeanKennethCruz_Resume.pdf": "/portfolioskc/static/media/SeanKennethCruz_Resume.47fac3a018d871e627b3.pdf",
     "static/media/hms.png": "/portfolioskc/static/media/hms.8c64355114aab7689781.png",
     "index.html": "/portfolioskc/index.html",
-    "main.8c93007e.css.map": "/portfolioskc/static/css/main.8c93007e.css.map",
-    "main.5bd03541.js.map": "/portfolioskc/static/js/main.5bd03541.js.map"
+    "main.c73a5794.css.map": "/portfolioskc/static/css/main.c73a5794.css.map",
+    "main.208fa02b.js.map": "/portfolioskc/static/js/main.208fa02b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c93007e.css",
-    "static/js/main.5bd03541.js"
+    "static/css/main.c73a5794.css",
+    "static/js/main.208fa02b.js"
   ]
 }
