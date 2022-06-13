@@ -12,7 +12,7 @@ const Footer = () => {
           <p>© 2022 Skcruzer, Inc. All Rights Reserved. </p>
         </Grid>
         <Grid>
-         
+
         </Grid>
       </Grid>
     </>
