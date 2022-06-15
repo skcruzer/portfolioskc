@@ -3,6 +3,7 @@ import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import proPic from '../../assets/pics/small.png'
 import Avatar from '@mui/material/Avatar'
+import Carousel from './Carousel.js'
 import './about.css'
 
 const About = () => {
@@ -82,7 +83,11 @@ const About = () => {
               </p>
             </Grid>
           </Grid>
+          <Grid>
+            <Carousel />
+          </Grid>
         </Grid>
+
       </Box>
 
     </>

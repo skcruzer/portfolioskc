@@ -130,7 +130,7 @@ const Contact = () => {
       </Grid>
       <Grid container className='contact' justifyContent='center'>
         <Grid item>
-          <Button>Submit</Button>
+          <Button variant='contained'>Submit</Button>
         </Grid>
       </Grid>
       <Grid container className='contact' justifyContent='center'>

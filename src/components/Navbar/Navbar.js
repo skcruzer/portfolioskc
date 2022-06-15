@@ -37,7 +37,7 @@ const ResponsiveAppBar = ({ pageState, setPageState }) => {
   }
 
   return (
-    <AppBar position="static" style={{ background: '#284B63'}}>
+    <AppBar position="static" style={{ background: '#284B63' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
