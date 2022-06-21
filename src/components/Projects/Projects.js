@@ -60,18 +60,18 @@ const Projects = () => {
     <>
       <Grid container className='projects'>
         <Grid container justifyContent='center'>
-        <h1>My Projects</h1>
-      </Grid>
-      <Grid container spacing={4} padding={2} justifyContent='center'>
+          <h1>My Projects</h1>
+        </Grid>
+        <Grid container spacing={4} padding={2} justifyContent='center'>
 
-        {projects.map(project =>
-          <Grid item>
-            <Card title={project.title} github={project.github} heroku={project.heroku} image={project.image} description={project.description}></Card>
-          </Grid>
-        )}
+          {projects.map(project =>
+            <Grid item>
+              <Card title={project.title} github={project.github} heroku={project.heroku} image={project.image} description={project.description}></Card>
+            </Grid>
+          )}
+        </Grid>
       </Grid>
-      </Grid>
-      
+
     </>
   )
 }
