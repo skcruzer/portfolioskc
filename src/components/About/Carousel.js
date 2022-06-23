@@ -7,6 +7,8 @@ import Cinema from '../../assets/pics/cinema&sip.png'
 import StackUp from '../../assets/pics/stackup.png'
 import HMS from '../../assets/pics/hms.png'
 
+import './about.css'
+
 class Carousel extends React.Component {
 
   constructor(props) {
@@ -42,6 +44,8 @@ class Carousel extends React.Component {
   }
 
   handleCardClick = (id, card) => {
+    console.log(id)
+
     let items = [...this.state.items]
 
     items[id].selected = items[id].selected ? false : true
@@ -59,7 +63,7 @@ class Carousel extends React.Component {
 
   makeItems = (items) => {
     return items.map(item => {
-      return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id} />
+      return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
     })
   }
 
@@ -68,7 +72,7 @@ class Carousel extends React.Component {
   render() {
     return (
       <Grid>
-        <Grid container className='justify-content-around' spacing={3}>
+        <Grid container className='justify-content-around'>
           {this.makeItems(this.state.items)}
         </Grid>
       </Grid>

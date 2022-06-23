@@ -2,3 +2,33 @@
   background-color: rgb(180, 184, 171);
   color: rgb(21, 50, 67);
 }
+
+.s-card {
+  margin: 20px;
+}
+
+.s-card-image {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 300px;
+  height: 480px;
+  box-shadow: 0px 0p 3px 1px #ccc;
+}
+
+.s-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.s-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.s-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
