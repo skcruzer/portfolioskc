@@ -23,8 +23,15 @@ const About = () => {
           </Grid>
 
           <Grid container justifyContent="center">
+            <Grid container justifyContent='center' >
+              <h2>Skills</h2>
+            </Grid>
+            
             <Grid item xs={12} md={8}>
               <p align="left">
+                <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Devops/aws.svg" alt="aws" width="50" height="50" />
+                </a>
                 <a href="https://babeljs.io/" target="_blank" rel="noreferrer">
                   <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="50" height="50" />
                 </a>
@@ -85,6 +92,9 @@ const About = () => {
             </Grid>
           </Grid>
           <Grid>
+            <Grid container justifyContent='center' >
+              <h2>Featured Projects</h2>
+            </Grid>
             <Carousel />
           </Grid>
         </Grid>

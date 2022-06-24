@@ -17,26 +17,26 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: 'Dev Grub',
-          subTitle: 'The cookbook for developers',
+          title: 'Cinema & Sip',
+          subTitle: 'Enhance your movie nights',
           imgSrc: Cinema,
-          link: 'https://devgrub.com',
+          link: 'https://st12345678910.github.io/CinemaAndSip/',
           selected: false
         },
         {
           id: 1,
-          title: 'Garrett Love',
-          subTitle: 'YouTube channel',
+          title: 'Stack Up',
+          subTitle: 'See how your projects stack up',
           imgSrc: StackUp,
-          link: 'https://www.youtube.com/channel/UCxSITxL2JbF2290GCqieVZw',
+          link: 'https://stackupapp.netlify.app/',
           selected: false
         },
         {
           id: 2,
-          title: 'Evverest',
-          subTitle: 'A social network for developers',
+          title: 'HMS',
+          subTitle: 'Information management system',
           imgSrc: HMS,
-          link: 'https://github.com/garrettlove8/evverest',
+          link: 'https://hosp-man-sys.herokuapp.com/dashboard.html',
           selected: false
         },
       ]

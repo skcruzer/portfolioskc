@@ -8,11 +8,13 @@ function CardInfo(props) {
   const style = useSpring({opacity: 1, from: {opacity: 0}})
 
   return(
-    <animated.Grid className='s-card-info' style={style}>
+    <animated.div className='s-card-info' style={style}>
       <p className='s-card-title'>{props.title}</p>
       <p className='s-card-sub-title'>{props.subTitle}</p>
-      <a href={props.link} target='blank' rel='noopener noreferrer'>View</a>
-    </animated.Grid>
+      <button>
+        <a href={props.link} className='viewBtn' target='blank' rel='noopener noreferrer'>View</a>
+      </button>
+    </animated.div>
   )
 }
 

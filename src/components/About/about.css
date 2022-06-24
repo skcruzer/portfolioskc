@@ -21,6 +21,10 @@
 .s-card-info {
   margin-top: 10px;
   min-height: 100px;
+  border: solid rgb(21, 50, 67) 2px;
+  text-align: center;
+  background-color: rgb(240, 100, 73);
+  color: rgb(21, 50, 67);
 }
 
 .s-card-title {
@@ -31,4 +35,9 @@
 .s-card-sub-title {
   font-size: 16px;
   margin: 0px;
+}
+
+.viewBtn {
+  color: rgb(21, 50, 67);
+  text-decoration: none;
 }
