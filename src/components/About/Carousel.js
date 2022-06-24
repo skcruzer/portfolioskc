@@ -31,14 +31,14 @@ class Carousel extends React.Component {
           link: 'https://stackupapp.netlify.app/',
           selected: false
         },
-        {
-          id: 2,
-          title: 'HMS',
-          subTitle: 'Information management system',
-          imgSrc: HMS,
-          link: 'https://hosp-man-sys.herokuapp.com/dashboard.html',
-          selected: false
-        },
+        // {
+        //   id: 2,
+        //   title: 'HMS',
+        //   subTitle: 'Information management system',
+        //   imgSrc: HMS,
+        //   link: 'https://hosp-man-sys.herokuapp.com/dashboard.html',
+        //   selected: false
+        // },
       ]
     }
   }
