@@ -97,6 +97,7 @@ const Contact = () => {
             <InputLabel htmlFor="my-input">Name</InputLabel>
             <Input
               name='name'
+              placeholder='Enter your name'
               onChange={handleInputChange}
               aria-describedby="my-helper-text"
               onBlur={handleNameBlur}
@@ -109,6 +110,7 @@ const Contact = () => {
             <InputLabel htmlFor="my-input">Email address</InputLabel>
             <Input
               name='email'
+              placeholder='Enter your email address'
               onChange={handleInputChange}
               aria-describedby="my-helper-text"
               onBlur={handleEmailBlur}
@@ -119,6 +121,7 @@ const Contact = () => {
         <Grid item xs={12} md={8} lg={7}>
           <TextField
             label="Message"
+            placeholder='Enter your message here...'
             multiline
             rows={4}
             fullWidth
