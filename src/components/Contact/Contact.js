@@ -128,7 +128,7 @@ const Contact = () => {
           />
         </Grid>
       </Grid>
-      <Grid container className='contact' justifyContent='center'>
+      <Grid container className='contact' justifyContent='center' padding={4}>
         <Grid item>
           <Button variant='contained'>Submit</Button>
         </Grid>
