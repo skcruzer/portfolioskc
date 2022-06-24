@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolioskc/static/css/main.3f4264d0.css",
-    "main.js": "/portfolioskc/static/js/main.2cc67e93.js",
+    "main.css": "/portfolioskc/static/css/main.9badedf9.css",
+    "main.js": "/portfolioskc/static/js/main.c9ba909c.js",
     "static/media/small.png": "/portfolioskc/static/media/small.be9a6630795495f35847.png",
     "static/media/cinema&sip.png": "/portfolioskc/static/media/cinema&sip.9bf2bd26d6e6c9df0384.png",
     "static/media/weatherDashboard.png": "/portfolioskc/static/media/weatherDashboard.9b7b76dc99f2c31a0017.png",
+    "static/media/SeanKennethCruz_Resume.pdf": "/portfolioskc/static/media/SeanKennethCruz_Resume.8cbae282bd9af455c4f5.pdf",
     "static/media/readmeGenerator.png": "/portfolioskc/static/media/readmeGenerator.341cd10d35cc611bf6c8.png",
     "static/media/codeQuiz.png": "/portfolioskc/static/media/codeQuiz.60026dc760bafc53225d.png",
-    "static/media/SeanKennethCruz_Resume.pdf": "/portfolioskc/static/media/SeanKennethCruz_Resume.be09689a82d8aae13fb6.pdf",
     "static/media/stackup.png": "/portfolioskc/static/media/stackup.26cb4e49265026b02a88.png",
     "static/media/hms.png": "/portfolioskc/static/media/hms.6cbd54eab8176f0c2f5f.png",
     "index.html": "/portfolioskc/index.html",
-    "main.3f4264d0.css.map": "/portfolioskc/static/css/main.3f4264d0.css.map",
-    "main.2cc67e93.js.map": "/portfolioskc/static/js/main.2cc67e93.js.map"
+    "main.9badedf9.css.map": "/portfolioskc/static/css/main.9badedf9.css.map",
+    "main.c9ba909c.js.map": "/portfolioskc/static/js/main.c9ba909c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f4264d0.css",
-    "static/js/main.2cc67e93.js"
+    "static/css/main.9badedf9.css",
+    "static/js/main.c9ba909c.js"
   ]
 }
