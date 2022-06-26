@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <Box>
-        <Grid justifyContent='center' className="about" container padding={2} spacing={2}>
+        <Grid justifyContent='center' className="about" container padding={2} spacing={1}>
           {/* grid item sizing for mobile responsiveness */}
           <Grid item md={2}></Grid>
           <Grid item xs={7} md={4}>
@@ -19,7 +19,7 @@ const About = () => {
 
           <Grid item xs={12} md={5}>
             <h1>About Me</h1>
-            <p>Hi, I'm Sean, a solutions-driven full stack web developer with a previous career in the food industry holding managerial positions at several companies, I was known for having a passion for analyzing problems and building systems and processes to solve them.</p>
+            <p>Hi! I'm Sean, a solutions-driven full stack web developer with a previous career in the food industry holding managerial positions at several companies, I was known for having a passion for analyzing problems and building systems and processes to solve them.</p>
           </Grid>
 
           <Grid container justifyContent="center">

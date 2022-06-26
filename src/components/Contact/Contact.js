@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import Grid from '@mui/material/Grid'
-import Input from '@mui/material/Input'
-import FormControl from '@mui/material/FormControl'
-import InputLabel from '@mui/material/FormControl';
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
+// import Input from '@mui/material/Input'
+// import FormControl from '@mui/material/FormControl'
+// import InputLabel from '@mui/material/FormControl';
+// import TextField from '@mui/material/TextField';
+// import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -12,52 +12,52 @@ import './contact.css'
 
 const Contact = () => {
 
-  const [formState, setFormState] = useState({
-    name: '',
-    email: '',
-    message: '',
-    nameNeeded: false,
-    messageNeeded: false,
-    invalidEmail: false
-  })
+  // const [formState, setFormState] = useState({
+  //   name: '',
+  //   email: '',
+  //   message: '',
+  //   nameNeeded: false,
+  //   messageNeeded: false,
+  //   invalidEmail: false
+  // })
 
-  const handleInputChange = ({ target: { name, value } }) => {
-    setFormState({ ...formState, [name]: value })
-  }
+  // const handleInputChange = ({ target: { name, value } }) => {
+  //   setFormState({ ...formState, [name]: value })
+  // }
 
-  // use handleNameBlur to let user know name input field must be entered if clicked away
-  const handleNameBlur = () => {
-    if (formState.name === '') {
-      setFormState({ ...formState, nameNeeded: true, messageNeeded: false, invalidEmail: false })
-    }
-  }
+  // // use handleNameBlur to let user know name input field must be entered if clicked away
+  // const handleNameBlur = () => {
+  //   if (formState.name === '') {
+  //     setFormState({ ...formState, nameNeeded: true, messageNeeded: false, invalidEmail: false })
+  //   }
+  // }
 
-  // use handleMessageBlur to let user know message input field must be entered if clicked away
-  const handleMessageBlur = () => {
-    if (formState.message === '') {
-      setFormState({ ...formState, messageNeeded: true, nameNeeded: false, invalidEmail: false })
-    }
-  }
+  // // use handleMessageBlur to let user know message input field must be entered if clicked away
+  // const handleMessageBlur = () => {
+  //   if (formState.message === '') {
+  //     setFormState({ ...formState, messageNeeded: true, nameNeeded: false, invalidEmail: false })
+  //   }
+  // }
 
-  // function to validate email address inputted by user
-  const validateEmail = (inputText) => {
-    var mailformat = /^\w+([\•-]?\w+)*@\w+([\•-]?\w+)*(\.\w{2,3})+$/
-    if (inputText.match(mailformat)) {
-      return true
-    } else {
-      return false
-    }
-  }
+  // // function to validate email address inputted by user
+  // const validateEmail = (inputText) => {
+  //   var mailformat = /^\w+([\•-]?\w+)*@\w+([\•-]?\w+)*(\.\w{2,3})+$/
+  //   if (inputText.match(mailformat)) {
+  //     return true
+  //   } else {
+  //     return false
+  //   }
+  // }
 
-  // use handleEmailBlur to let user know email input field must be entered if clicked away
-  const handleEmailBlur = () => {
-    if(validateEmail(formState.email)) 
-    {
-      console.log('valid email')
-    } else {
-      setFormState({ ...formState, invalidEmail: true, nameNeeded: false, messageNeeded: false })
-    }
-  }
+  // // use handleEmailBlur to let user know email input field must be entered if clicked away
+  // const handleEmailBlur = () => {
+  //   if(validateEmail(formState.email)) 
+  //   {
+  //     console.log('valid email')
+  //   } else {
+  //     setFormState({ ...formState, invalidEmail: true, nameNeeded: false, messageNeeded: false })
+  //   }
+  // }
 
   return (
     <>
@@ -86,7 +86,7 @@ const Contact = () => {
       </Grid>
       
       {/* form for contacting me */}
-      <Grid container className='contact' justifyContent='center'>
+      {/* <Grid container className='contact' justifyContent='center'>
         <Grid item>
           <h1>Contact</h1>
         </Grid>
@@ -136,9 +136,9 @@ const Contact = () => {
           <Button variant='contained'>Submit</Button>
         </Grid>
       </Grid>
-      <Grid container className='contact' justifyContent='center'>
+      <Grid container className='contact' justifyContent='center'> */}
         {/* Clicking away from input fields will render a notification on page to user if left blank or invalid */}
-        {
+        {/* {
           formState.nameNeeded ? <p> Name is required. </p> : ''
         }
         {
@@ -147,7 +147,7 @@ const Contact = () => {
         {
           formState.invalidEmail ? <p> Email is invalid. </p> : ''
         }
-      </Grid>
+      </Grid> */}
 
     </>
   )
