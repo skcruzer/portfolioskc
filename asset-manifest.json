@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolioskc/static/css/main.b2f66832.css",
-    "main.js": "/portfolioskc/static/js/main.5346e9bb.js",
+    "main.js": "/portfolioskc/static/js/main.c9a7452e.js",
     "static/media/small.png": "/portfolioskc/static/media/small.be9a6630795495f35847.png",
     "static/media/cinema&sip.png": "/portfolioskc/static/media/cinema&sip.9bf2bd26d6e6c9df0384.png",
     "static/media/weatherDashboard.png": "/portfolioskc/static/media/weatherDashboard.9b7b76dc99f2c31a0017.png",
+    "static/media/justTechNews.png": "/portfolioskc/static/media/justTechNews.ce6380221ff038052ad3.png",
     "static/media/readmeGenerator.png": "/portfolioskc/static/media/readmeGenerator.341cd10d35cc611bf6c8.png",
     "static/media/codeQuiz.png": "/portfolioskc/static/media/codeQuiz.60026dc760bafc53225d.png",
     "static/media/SeanKennethCruz_Resume.pdf": "/portfolioskc/static/media/SeanKennethCruz_Resume.8185fae67596793e2e75.pdf",
@@ -12,10 +13,10 @@
     "static/media/hms.png": "/portfolioskc/static/media/hms.6cbd54eab8176f0c2f5f.png",
     "index.html": "/portfolioskc/index.html",
     "main.b2f66832.css.map": "/portfolioskc/static/css/main.b2f66832.css.map",
-    "main.5346e9bb.js.map": "/portfolioskc/static/js/main.5346e9bb.js.map"
+    "main.c9a7452e.js.map": "/portfolioskc/static/js/main.c9a7452e.js.map"
   },
   "entrypoints": [
     "static/css/main.b2f66832.css",
-    "static/js/main.5346e9bb.js"
+    "static/js/main.c9a7452e.js"
   ]
 }
