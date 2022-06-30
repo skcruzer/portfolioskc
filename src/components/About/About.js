@@ -3,6 +3,9 @@ import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import proPic from '../../assets/pics/small.png'
 import Avatar from '@mui/material/Avatar'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 import Carousel from './Carousel.js'
 import './about.css'
 
@@ -19,8 +22,29 @@ const About = () => {
 
           <Grid item xs={12} md={5}>
             <h1>About Me</h1>
-            <p>Hi! I'm Sean, a solutions-driven full stack web developer with a previous career in the food industry holding managerial positions at several companies, I was known for having a passion for analyzing problems and building systems and processes to solve them.</p>
+            <p>Hi! I'm Sean, a solutions-driven full stack web developer with a passion for analyzing problems and building systems and processes to solve them.</p>
+            <Grid>
+              <a href="https://github.com/skcruzer" target='_blank' rel='noopener noreferrer'>
+                <GitHubIcon fontSize='medium' color='info'>
+                </GitHubIcon>
+              </a>
+            </Grid>
+            <Grid>
+
+              <a href="https://www.linkedin.com/in/seankennethcruz/" target='_blank' rel='noopener noreferrer'>
+                <LinkedInIcon fontSize='medium' color='info'>
+                </LinkedInIcon>
+              </a>
+
+            </Grid>
+            <Grid>
+              <a href="mailto:seankennethcruz@gmail.com" target='_blank' rel='noopener noreferrer'>
+                <EmailIcon fontSize='medium' color='info'>
+                </EmailIcon>
+              </a>
+            </Grid>
           </Grid>
+          
 
           <Grid container justifyContent="center">
             <Grid container justifyContent='center' >

@@ -7,6 +7,7 @@ import HMS from '../../assets/pics/hms.png'
 import ReadMe from '../../assets/pics/readmeGenerator.png'
 import Weather from '../../assets/pics/weatherDashboard.png'
 import Code from '../../assets/pics/codeQuiz.png'
+import News from '../../assets/pics/justTechNews.png'
 import './projects.css'
 
 const Projects = () => {
@@ -31,6 +32,13 @@ const Projects = () => {
       heroku: 'https://hosp-man-sys.herokuapp.com/dashboard.html',
       image: HMS,
       description: 'A Hospital Management System that helps health care providers manage the information related to their staff and patients effectively.'
+    },
+    {
+      title: 'Just Tech News',
+      github: 'https://github.com/skcruzer/python-newsfeed',
+      heroku: 'https://just-tech-news-python-skc.herokuapp.com/',
+      image: News,
+      description: 'A Python website where users can post, upvote, and comment on links to news articles related to tech.'
     },
     {
       title: 'README Generator',
